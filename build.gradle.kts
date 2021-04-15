@@ -24,6 +24,8 @@ dependencies {
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	implementation("io.projectreactor.netty:reactor-netty")
 
+	implementation("io.github.microutils:kotlin-logging-jvm:2.0.3")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
 }
